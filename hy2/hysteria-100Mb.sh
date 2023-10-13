@@ -288,10 +288,10 @@ tls:
   insecure: true
 
 quic:
-  initStreamReceiveWindow: 16777216
-  maxStreamReceiveWindow: 16777216
-  initConnReceiveWindow: 33554432
-  maxConnReceiveWindow: 33554432
+  initStreamReceiveWindow: 5242880
+  maxStreamReceiveWindow: 5242880
+  initConnReceiveWindow: 13107200
+  maxConnReceiveWindow: 13107200
 
 fastOpen: true
 
@@ -311,10 +311,10 @@ EOF
     "insecure": true
   },
   "quic": {
-    "initStreamReceiveWindow": 16777216,
-    "maxStreamReceiveWindow": 16777216,
-    "initConnReceiveWindow": 33554432,
-    "maxConnReceiveWindow": 33554432
+    "initStreamReceiveWindow": 5242880,
+    "maxStreamReceiveWindow": 5242880,
+    "initConnReceiveWindow": 13107200,
+    "maxConnReceiveWindow": 13107200
   },
   "fastOpen": true,
   "socks5": {
